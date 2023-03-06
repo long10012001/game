@@ -25,7 +25,7 @@ export default {
   name: "App",
   data() {
     return {
-      statusMatch: "result",
+      statusMatch: "default",
       settings: {
         totalOfBlocks: 0,
         cardsContext: [],
