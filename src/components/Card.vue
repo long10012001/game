@@ -5,10 +5,10 @@
     :style="{
       height: `${(510 - 16 * 4) / Math.sqrt(cardsContext.length) - 16}px`,
       width: `${
-        (((510 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4
+        (((530 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4
       }px`,
       perspective: `${
-        ((((510 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4) * 2
+        ((((530 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4) * 2
       }px`,
     }"
   >
