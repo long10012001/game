@@ -3,7 +3,7 @@
     class="card"
     :class="{ 'card-disabled': isDisabled }"
     :style="{
-      height: `${(510 - 16 * 4) / Math.sqrt(cardsContext.length) - 16}px`,
+      height: `${(530 - 16 * 4) / Math.sqrt(cardsContext.length) - 16}px`,
       width: `${
         (((530 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4
       }px`,
