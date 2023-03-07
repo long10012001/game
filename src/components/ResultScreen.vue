@@ -2,7 +2,7 @@
   <div class="screen">
     <h1>
       ♥ Mãi Yêu Tình Yêu Của Anh ♥
-      <span><br />♥♥♥<img src="../assets/images/1.png" alt="" />♥♥♥</span>
+      <span><br />♥<img src="../assets/images/1.png" alt="" />♥</span>
     </h1>
     <!-- <h3>{{ Math.round(timer / 920) }} giây</h3> -->
     <button @click="onStartAgain">Chơi Lại</button>
@@ -45,7 +45,7 @@ export default {
 .screen h1 {
   text-align: center;
   font-size: 3.5rem;
-  color: rgb(230, 40, 40);
+  color: rgb(194, 54, 54);
 }
 
 .screen span img {

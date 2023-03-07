@@ -4,7 +4,7 @@
       class="card_inner"
       :style="{
         width: `${
-          ((((580 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4 +
+          ((((600 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4 +
             16) *
           Math.sqrt(cardsContext.length)
         }px`,
@@ -91,7 +91,7 @@ export default {
 
 <style lang="css" scoped>
 .screen {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   position: absolute;
   top: 0;
@@ -99,6 +99,7 @@ export default {
   z-index: 2;
   background-color: var(--dark);
   color: var(--light);
+  padding: 3%;
 }
 
 .card_inner {
