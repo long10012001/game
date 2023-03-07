@@ -84,7 +84,7 @@ export default {
 <style lang="css" scoped>
 .card {
   display: inline-block;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   margin-right: 1rem;
 }
 
@@ -114,6 +114,7 @@ export default {
 
 .card_face_front .card_content {
   background: url("../assets/images/download.png") no-repeat center center;
+  background-color: var(--card);
   height: 100%;
   width: 100%;
 }

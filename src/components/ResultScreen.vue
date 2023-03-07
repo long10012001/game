@@ -1,6 +1,9 @@
 <template>
   <div class="screen">
-    <h1>♥ Mãi Yêu Tình Yêu Của Anh ♥ ♥<span>Ý Khùng</span>♥</h1>
+    <h1>
+      ♥ Mãi Yêu Tình Yêu Của Anh ♥
+      <span><br />♥♥♥<img src="../assets/images/1.png" alt="" />♥♥♥</span>
+    </h1>
     <!-- <h3>{{ Math.round(timer / 920) }} giây</h3> -->
     <button @click="onStartAgain">Chơi Lại</button>
   </div>
@@ -41,12 +44,13 @@ export default {
 
 .screen h1 {
   text-align: center;
-  font-size: 5rem;
-  color: red;
+  font-size: 3.5rem;
+  color: rgb(230, 40, 40);
 }
 
-.screen span {
-  color: rgb(55, 151, 180);
+.screen span img {
+  width: 30%;
+  border-radius: 5px;
 }
 
 .screen h3 {
