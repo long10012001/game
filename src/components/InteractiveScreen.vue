@@ -4,7 +4,7 @@
       class="card_inner"
       :style="{
         width: `${
-          ((((600 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4 +
+          ((((550 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4 +
             16) *
           Math.sqrt(cardsContext.length)
         }px`,
