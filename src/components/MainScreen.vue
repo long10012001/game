@@ -4,7 +4,7 @@
 
     <div class="modes">
       <button @click="onStart(16)">
-        <span>Bắt đầu ghép tình yêu</span>
+        <span>Bắt đầu</span>
       </button>
     </div>
   </div>
