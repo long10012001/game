@@ -92,9 +92,10 @@ export default {
 <style lang="css" scoped>
 .screen {
   width: 100%;
+  height: 100%;
   position: absolute;
-  top: 10%;
-  left: -1px;
+  top: 0;
+  left: 0;
   z-index: 2;
   background-color: var(--dark);
   color: var(--light);
