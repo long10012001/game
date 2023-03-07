@@ -4,7 +4,7 @@
       class="card_inner"
       :style="{
         width: `${
-          ((((550 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4 +
+          ((((510 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4 +
             16) *
           Math.sqrt(cardsContext.length)
         }px`,
@@ -99,7 +99,7 @@ export default {
   z-index: 2;
   background-color: var(--dark);
   color: var(--light);
-  padding: 3%;
+  padding: 2%;
 }
 
 .card_inner {
