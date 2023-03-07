@@ -99,7 +99,7 @@ export default {
   z-index: 2;
   background-color: var(--dark);
   color: var(--light);
-  padding: 2%;
+  padding-left: 3%;
 }
 
 .card_inner {
