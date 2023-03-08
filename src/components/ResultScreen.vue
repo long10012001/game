@@ -2,7 +2,7 @@
   <div class="screen">
     <h1>
       ♥ Mãi Yêu Tình Yêu Của Anh ♥
-      <span><br />♥<img src="../assets/images/1.png" alt="" />♥</span>
+      <span><br />♥<img src="../assets/images/imgresult.png" alt="" />♥</span>
     </h1>
     <!-- <h3>{{ Math.round(timer / 920) }} giây</h3> -->
     <button @click="onStartAgain">Chơi Lại</button>
